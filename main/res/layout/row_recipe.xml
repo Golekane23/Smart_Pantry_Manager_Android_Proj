@@ -1,0 +1,8 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+ android:orientation="vertical" android:padding="14dp" android:layout_margin="5dp" android:background="#F1F8E9"
+ android:layout_width="match_parent" android:layout_height="wrap_content">
+ <TextView android:id="@+id/txtRecipeName" android:textSize="18sp" android:textStyle="bold"
+  android:layout_width="match_parent" android:layout_height="wrap_content"/>
+ <TextView android:id="@+id/txtRecipeIngredients" android:textSize="13sp"
+  android:layout_width="match_parent" android:layout_height="wrap_content"/>
+</LinearLayout>

@@ -1,0 +1,13 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+ android:orientation="vertical" android:padding="16dp" android:background="#F7FAF5"
+ android:layout_width="match_parent" android:layout_height="match_parent">
+ <TextView android:text="Smart Pantry Manager" android:textSize="25sp" android:textStyle="bold"
+  android:textColor="#1B5E20" android:layout_width="match_parent" android:layout_height="wrap_content"/>
+ <TextView android:id="@+id/txtPantryCount" android:text="Your pantry" android:textSize="15sp"
+  android:layout_marginTop="8dp" android:layout_width="match_parent" android:layout_height="wrap_content"/>
+ <Button android:id="@+id/btnAdd" android:text="Add ingredient" android:layout_width="match_parent" android:layout_height="wrap_content"/>
+ <Button android:id="@+id/btnSuggestions" android:text="Suggested recipes" android:layout_width="match_parent" android:layout_height="wrap_content"/>
+ <Button android:id="@+id/btnSettings" android:text="Settings" android:layout_width="match_parent" android:layout_height="wrap_content"/>
+ <androidx.recyclerview.widget.RecyclerView android:id="@+id/recyclerPantry"
+  android:layout_width="match_parent" android:layout_height="0dp" android:layout_weight="1"/>
+</LinearLayout>
